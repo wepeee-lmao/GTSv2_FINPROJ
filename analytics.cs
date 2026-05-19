@@ -514,6 +514,17 @@ namespace GTSv2_FINPROJ
                 Rectangle prev = new Rectangle((int)(1100 * scaleX),(int)(180 * scaleY), (int)(120 * scaleX), (int)(35 * scaleY));
                 Rectangle next = new Rectangle((int)(1300 * scaleX), (int)(180 * scaleY), (int)(120 * scaleX), (int)(35 * scaleY));
 
+                Rectangle signout = new Rectangle(
+                         (int)((bg.Width - 220) * scaleX),
+                         (int)(120 * scaleY),
+                         (int)(180 * scaleX),
+                         (int)(35 * scaleY));
+                Rectangle refresh = new Rectangle(
+                    (int)((bg.Width - 220) * scaleX),
+                    (int)(170 * scaleY),
+                    (int)(180 * scaleX),
+                    (int)(35 * scaleY));
+
                 if (prev.Contains(e.Location) && cpage > 0)
                 {
                     cpage--;
@@ -526,6 +537,21 @@ namespace GTSv2_FINPROJ
                     cpage++;
                     UpdateGridPosition();
                     this.Invalidate();
+                    return;
+                }
+
+                if(signout.Contains(e.Location))
+                {
+                    nav.remember(this);
+                    this.Close();
+                    var n = new signpage();
+                    nav.apply(n);
+                    nav.go(n);
+                    return;
+                }
+                if (refresh.Contains(e.Location))
+                {
+                    loadadmindata();
                     return;
                 }
             }
@@ -547,6 +573,7 @@ namespace GTSv2_FINPROJ
                     return;
                 }
             }
+            
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
