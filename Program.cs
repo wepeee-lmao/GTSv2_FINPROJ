@@ -13,7 +13,7 @@ namespace GTSv2_FINPROJ
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             sprite.Load();
-            nav.go(new finalboss());
+            nav.go(new signpage());
             nav.run();
         }
     }

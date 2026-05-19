@@ -311,11 +311,11 @@ namespace GTSv2_FINPROJ
                 transitioneffects.drawbutfade(g, playact, playerPos.X, playerPos.Y, transp0, r);
             }
 
-            Rectangle sc = ScaleRectangle(new Rectangle(80, 850, strip.Width, strip.Height));
             if (strip != null)
             {
                 if (near)
                 {
+                    Rectangle sc = ScaleRectangle(new Rectangle(80, 850, strip.Width, strip.Height));
                     g.DrawImage(strip, sc);
 
                     RectangleF box = ScaleRectangleF(new RectangleF(320, 890, strip.Width - 200, 60));
