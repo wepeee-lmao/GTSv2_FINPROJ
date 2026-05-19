@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GTSv2_FINPROJ.aboutgame" Collapsed="true">
+    <Position X="18.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASBAAAEAgiAAAKIAAATAIAACAgAACAAEEgAAAAAgCAQ=</HashCode>
+      <FileName>aboutgame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.analytics" Collapsed="true">
+    <Position X="13" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AATAAEgAAiIABAIAAATAEAASSGIAIQCABAAAIAIgABA=</HashCode>
+      <FileName>analytics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.Enter" Collapsed="true">
+    <Position X="18.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BUAAAACgoCAAABIwAQCAAIACQIiACQAMAABgACAoAgA=</HashCode>
+      <FileName>Enter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.finalboss" Collapsed="true">
+    <Position X="18.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBCCAETgEiAAAIIACIDIAQASQEYCMAiAnAf0BAI0AYA=</HashCode>
+      <FileName>finalboss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.gameend" Collapsed="true">
+    <Position X="13" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEAoACAAAgIgAACCCBACQFAACACCAkAAEAIgAAQ=</HashCode>
+      <FileName>gameend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.hovereff" Collapsed="true">
+    <Position X="10.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAgAAIAAAAAAAAACAAAACAACAAQAgAAAAAAA=</HashCode>
+      <FileName>hovereff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.texteff" Collapsed="true">
+    <Position X="5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>hovereff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.sprite" Collapsed="true">
+    <Position X="8.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAGBABAAAAAAAAAAEAABAAAUAQAAAAAAA=</HashCode>
+      <FileName>hovereff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.nav" Collapsed="true">
+    <Position X="8.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAkgAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAIAAAA=</HashCode>
+      <FileName>hovereff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.playdata" Collapsed="true">
+    <Position X="5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAgAAAAQBAAAAIEEAAIAAAAAgAAGAA=</HashCode>
+      <FileName>dbconnect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.unitdata" Collapsed="true">
+    <Position X="8.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAACAA=</HashCode>
+      <FileName>dbconnect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.dbconnect" Collapsed="true">
+    <Position X="5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCIYYARCCAAAAgCAADDAICRAAAAAAAEAAQQAAIIIEAA=</HashCode>
+      <FileName>dbconnect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.Intro" Collapsed="true">
+    <Position X="13" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCgEEE0iCECAKpwAAnpAwQCQAAJLAAFAkEMUAAgAAA=</HashCode>
+      <FileName>Intro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.transitioneffects" Collapsed="true">
+    <Position X="8.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.knowbuild" Collapsed="true">
+    <Position X="18.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QKAAEAAkgCCAGJAgAMCAAQAiSEMBCBACBsAAIYAsAwA=</HashCode>
+      <FileName>knowbuild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.knowitems" Collapsed="true">
+    <Position X="18.5" Y="11.5" Width="1.5" />
+    <InheritanceLine Type="System.Windows.Forms.Form" FixedToPoint="true">
+      <Path>
+        <Point X="17" Y="4.191" />
+        <Point X="17" Y="11.2" />
+        <Point X="19.062" Y="11.2" />
+        <Point X="19.062" Y="11.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AKAAgEAggiAAFAIoAAaAAAACQAAACACCAoAAIgAgAQA=</HashCode>
+      <FileName>knowitems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.Knowjourn" Collapsed="true">
+    <Position X="18.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gSHAAgkggjEAAaALgAfAABELBkIACRgAAEACAIIhAAA=</HashCode>
+      <FileName>Knowjourn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.knowquiz" Collapsed="true">
+    <Position X="18.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICCAAEAg0iAJAAIgAACIAAAGQEYACACEEIEAIgA0AQA=</HashCode>
+      <FileName>knowquiz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.QuizQuestion" Collapsed="true">
+    <Position X="5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAEAAAAAAAAAAAAAAAACAAABAAAAAAAAAA=</HashCode>
+      <FileName>knowquiz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.nventbuild" Collapsed="true">
+    <Position X="13" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QKCAEAAmgCDAGJBgAECAAQAiYEMBCBAGAsAAIYAoAwA=</HashCode>
+      <FileName>nventbuild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.nventitems" Collapsed="true">
+    <Position X="13" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hCDNAhUggiAwBIIkISyAAgAC5AYcwZJCAMFAIAAhgUA=</HashCode>
+      <FileName>nventitems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.nventunit" Collapsed="true">
+    <Position X="13" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAABEAggiAAAAIgAAKAAACiQBIACACCAoBAIAIgAQA=</HashCode>
+      <FileName>nventunit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.portloading" Collapsed="true">
+    <Position X="13" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQGAAggiAAIIJgBAqoASQCQEAACQgGAGAAAQAoQQA=</HashCode>
+      <FileName>portloading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.ports" Collapsed="true">
+    <Position X="16.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAEAAgiCAGJAgACCAAYACAEMBCBCCAMAAADAogQA=</HashCode>
+      <FileName>ports.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.signpage" Collapsed="true">
+    <Position X="18.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGiIQEAggGAABBIiAASAAAACAEAACACAQgAEihAgAAA=</HashCode>
+      <FileName>signpage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.tutorial" Collapsed="true">
+    <Position X="13" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAEAAgiGAGLQgACCAAYACAEMBCBAAAMAAECAogQI=</HashCode>
+      <FileName>tutorial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.Vtrecord" Collapsed="true">
+    <Position X="18.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iaJAAAEAArEAAKAEABfAAACCAkAACAIAAAACAABoAAA=</HashCode>
+      <FileName>Vtrecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTSv2_FINPROJ.wmap" Collapsed="true">
+    <Position X="13" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oQDEAgEhgiEBBKAggAHAAB0KhECQDAkAIACCAJIhgJE=</HashCode>
+      <FileName>wmap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Forms.PictureBox" Collapsed="true">
+    <Position X="10.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Forms.ContainerControl" Collapsed="true">
+    <Position X="16.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Forms.ScrollableControl" Collapsed="true">
+    <Position X="16.25" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Forms.Control" Collapsed="true">
+    <Position X="19.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="GTSv2_FINPROJ.mode" Collapsed="true">
+    <Position X="10.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>dbconnect.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GTSv2_FINPROJ.kmode" Collapsed="true">
+    <Position X="10.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAA=</HashCode>
+      <FileName>dbconnect.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
